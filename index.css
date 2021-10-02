@@ -1,0 +1,45 @@
+/*
+  Notes from committee meetings:
+  * Marquee
+*/
+
+h1 {
+  margin-bottom: 0;
+}
+
+.navbar {
+  background: linear-gradient(45deg, white, #adadad, white, #8c8c8c 60%, white);
+  /* background-color: #ffffff; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3355c1;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: #3355c1;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#infotron {
+  background-image: url(https://images.unsplash.com/photo-1501510691679-728450bdcb40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-position: 50% 50%;
+  min-height: 60rem;
+}
+
+#infocard {
+  background-image: linear-gradient(to bottom right, #c1c1c194, #ffffffcc);
+  background-color: transparent;
+  color: #10225a;
+  margin-top: 25%;
+}
